@@ -31,7 +31,7 @@ def take_commend():
 def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('yahoo9635@gmail.com', 'moulayrachid')
+    server.login('alexarobot92@gmail.com', 'alexa92robot')
     email = EmailMessage()
     email['From'] = 'yahoo9635@gmail.com'
     email['To'] = receiver
