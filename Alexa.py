@@ -33,7 +33,7 @@ def send_email(receiver, subject, message):
     server.starttls()
     server.login('alexarobot92@gmail.com', 'alexa92robot')
     email = EmailMessage()
-    email['From'] = 'yahoo9635@gmail.com'
+    email['From'] = 'alexarobot92@gmail.com'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(message)
